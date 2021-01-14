@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--CSS do bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body class="bk">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <a class="navbar-brand" href="#">Olá Mundo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="contato.html">Contato <span class="sr-only">(página secundaria)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  text-light dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Redes Sociais
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        
+                        <div class="row ml-1">
+                            <div class=" container">
+                                <img class="tm-social" src="assets/img/instagram.svg">
+                                
+                                <a class="dropdown-item" id='instag' href="https://www.instagram.com/ " target="black" onmouseover="mudaCor1()" onmouseout="voltarCor1()">Instagram</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="row ml-1">
+                            <div class="container">
+                                <img class="tm-social" src="assets/img/linkedin.svg">
+                                <a class="dropdown-item"  id='linked' href="https://www.linkedin.com/feed/" target="black" onmouseover="mudaCor2()" onmouseout="voltarCor2()">LinkedIn</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </li>
+
+            </ul>
+
+    </nav>
+
+
+
+    <h1 class="center">Sobre Bruno</h1>
+    <img src="assets/img/universo.png" alt="foto do universo">
+
+    <div class="container">
+        <div>
+            <img class="br-50 wh-300 p-30" src="assets/img/Feliz.png" alt="Feliz">
+        </div>
+
+        <div class="p-30">
+
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facilis id aperiam nobis corporis
+                impedit, magnam illum placeat quo iste ullam cumque laboriosam. Voluptatibus odit, laboriosam sunt
+                eveniet laudantium dolorum?
+            </p>
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facilis id aperiam nobis corporis
+                impedit, magnam illum placeat quo iste ullam cumque laboriosam. Voluptatibus odit, laboriosam sunt
+                eveniet laudantium dolorum?
+            </p>
+        </div>
+
+    </div>
+
+    <h2 class="center">Meu video predileto</h2>
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bpOSxM0rNPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+    <hr>
+
+    <footer>
+
+        <h5 class="container">Todos os direitos reservados: Bruno Estivalli &copy</h5>
+
+    </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/script.js"></script>
+
+    <!--Link JavaScript do Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
